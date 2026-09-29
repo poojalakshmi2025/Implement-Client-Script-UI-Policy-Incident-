@@ -1,0 +1,12 @@
+{
+  "name": "Hide On Hold Fields",
+  "table": "incident",
+  "short_description": "Show Hold reason only when State is On Hold",
+  "conditions": "State is On Hold",
+  "on_load": true,
+  "reverse_if_false": true,
+  "actions": [
+    { "field": "hold_reason", "mandatory": true, "visible": true }
+  ],
+  "note": "Default visibility of hold_reason should be hidden via the reverse action."
+}

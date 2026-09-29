@@ -1,0 +1,12 @@
+{
+  "name": "servicenow-incident-client-script-ui-policy",
+  "version": "1.0.0",
+  "description": "Client Scripts and UI Policies for the Incident table",
+  "scripts": {
+    "lint": "eslint src/client-scripts --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "license": "MIT"
+}

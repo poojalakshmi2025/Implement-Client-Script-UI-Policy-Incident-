@@ -1,0 +1,5 @@
+{
+  "env": { "browser": true, "es6": true },
+  "globals": { "g_form": "readonly", "g_user": "readonly", "NOW": "readonly" },
+  "rules": {}
+}

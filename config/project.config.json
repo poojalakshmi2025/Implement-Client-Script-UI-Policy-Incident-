@@ -1,0 +1,7 @@
+{
+  "instance": "https://<your-instance>.service-now.com",
+  "application_scope": "global",
+  "table": "incident",
+  "minShortDescriptionLength": 10,
+  "highUrgencyValue": "1"
+}

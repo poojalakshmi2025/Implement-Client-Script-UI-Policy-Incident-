@@ -1,0 +1,12 @@
+{
+  "name": "Resolution Fields Mandatory",
+  "table": "incident",
+  "short_description": "Require resolution info when Resolved or Closed",
+  "conditions": "State is Resolved OR State is Closed",
+  "on_load": true,
+  "reverse_if_false": true,
+  "actions": [
+    { "field": "close_code",  "mandatory": true, "visible": true },
+    { "field": "close_notes", "mandatory": true, "visible": true }
+  ]
+}
